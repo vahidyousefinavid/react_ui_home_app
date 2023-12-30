@@ -1,0 +1,73 @@
+.Containerr{
+    max-width: 1300px;
+    margin: 5rem auto;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .listButt li{
+    display: inline-block;
+    margin: 0 12px;
+    /* font-size: 10px;
+    font-weight:bold; */
+    cursor: pointer;
+  }
+
+  .List{
+    font-family: 'iransans';
+    display: inline-block;
+    margin: 0 12px;
+    font-size: 12px;
+    font-weight:bold;
+    cursor: pointer;
+  }
+
+  .StleCover{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f5cd00;
+    opacity: 0;
+    transition: all 1s;
+  }
+  .StleCover:hover{
+   
+    opacity: 0.8;
+    z-index: 99;
+  }
+
+
+  @media screen and (max-width: 1020px) {
+    .Containerr{
+      max-width: 1300px;
+      margin: 5rem auto;
+      margin-top: 8rem;
+  }
+ 
+    .listButt{
+      margin-top: 2.5rem;
+    }
+ 
+ }
+

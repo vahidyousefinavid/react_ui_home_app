@@ -1,0 +1,18 @@
+.Conntainer{
+    max-width: 1300px;
+    margin: 6rem auto;   
+}
+
+@media screen and (max-width: 1020px) {
+
+    .Conntainer{
+        max-width: 1300px;
+        margin-top: 22rem;  
+    }
+    
+ .styleRow{
+    display: flex;
+    justify-content: space-evenly;
+ }
+ 
+ }

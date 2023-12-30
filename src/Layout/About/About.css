@@ -1,0 +1,14 @@
+.Contaner{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.StyleRow{
+        justify-content: center;
+}
+
+.StyleText{
+    margin-top: 3rem;
+    width: 900px;
+    text-align: justify;
+}

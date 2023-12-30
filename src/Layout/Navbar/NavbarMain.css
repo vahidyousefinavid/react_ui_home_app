@@ -1,0 +1,24 @@
+.Container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 1020px) {
+    .styleImg{
+        width:10rem;
+        padding-right: 2rem;
+        }
+
+        .styleNAv{
+            padding-right: 2rem;
+        }
+
+        .styleLang{
+            margin-top: 12px;
+            display: flex;
+            margin-right: 2rem;
+        }
+ 
+ }
+

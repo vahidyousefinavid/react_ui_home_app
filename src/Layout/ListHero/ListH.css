@@ -1,0 +1,35 @@
+.Containers{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.styleLine::before{
+  content: "";
+  border-right: 4px solid #f5cd00;
+  width: 50rem;
+  height: 12rem;
+  position: absolute;
+  top:12px;
+  right:-2rem;
+}
+
+@media screen and (max-width: 1020px) {
+  .StyleHeader{
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+  }
+  .styleDivImg{
+    width: 100%;
+  }
+  .styleImag{
+    width: 100% !important;
+  }
+  .styleLine::before{
+ display: none;
+  }
+  .styleMargin{
+    margin-bottom: 2rem;
+  }
+ }
+

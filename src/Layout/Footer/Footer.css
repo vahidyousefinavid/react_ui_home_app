@@ -1,0 +1,37 @@
+.Conntaineer{
+    max-width: 1300px;
+    margin: 0 auto;   
+    color: #2d2c33;
+
+    /* color:#787373; */
+}
+
+input{
+    background-color :#5e5d63;
+    border-radius: 2px;
+    padding: 3px 12px;
+}
+
+input:focus{
+    outline: none;
+    /* color:#b9b8be; */
+}
+
+
+@media screen and (max-width: 1020px) {
+    input{
+        background-color :#5e5d63;
+        border-radius: 2px;
+        padding: 3px 12px;
+        width: 100%;
+    }
+    
+
+    .StyleObject{
+            display: flex !important;
+          right: 3rem;
+          left: 3rem;
+    }
+ }
+
+
