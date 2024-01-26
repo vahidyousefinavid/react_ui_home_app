@@ -42,7 +42,6 @@ const NavbarMain = () => {
                   <Link to="/About">
                   درباره ما
                   </Link>
-                 
                 </Nav.Link>
                 {/* <Nav.Link
                   href="#link"
